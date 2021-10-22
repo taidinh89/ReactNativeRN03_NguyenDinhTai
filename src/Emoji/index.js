@@ -49,7 +49,7 @@ export default class Emoji extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}> Bạn đang cảm thấy thế nào </Text>
+        <Text style={styles.title}> Bạn đang cảm thấy thế nào ?</Text>
         <View style={styles.main}>{this.main(this.state.image0)}</View>
         <View style={styles.containImage}>{this.renderList()}</View>
       </View>
