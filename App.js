@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import DemoFlex from './src/Buoi2/DemoFlex';
-import DemoStyleSheet from './src/Buoi2/DemoStyle';
-import DemoImage from './src/Buoi2/DemoImage';
+
+import Baitap_Zalo from './src/Buoi4/BaiTap_Zalo';
+import DemoFlatList from './src/Buoi4/DemoFlatList';
+
 export default class App extends Component {
   render() {
-    return <DemoImage />;
+    return <Baitap_Zalo />;
   }
 }
