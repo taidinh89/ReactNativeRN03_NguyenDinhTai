@@ -42,7 +42,6 @@ export default class LayoutBTVN extends Component {
 
   render() {
     const {listCategory, listProduct} = this.state;
-    console.log(listCategory);
     return (
       <SafeAreaView style={styles.container}>
         <StatusBar barStyle="light-content" />
@@ -169,4 +168,5 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 10,
   },
+  logoBtn: {},
 });
