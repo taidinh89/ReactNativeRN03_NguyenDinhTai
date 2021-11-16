@@ -138,7 +138,6 @@ const styles = StyleSheet.create({
   },
   category: {
     height: 50,
-    // backgroundColor: '#bfb',
     flexGrow: 0,
     marginBottom: 10,
     paddingLeft: 10,
@@ -149,7 +148,6 @@ const styles = StyleSheet.create({
   },
   categoryTitle: {
     fontSize: 20,
-    color: 'Black',
     fontWeight: 'bold',
     textTransform: 'capitalize',
   },
